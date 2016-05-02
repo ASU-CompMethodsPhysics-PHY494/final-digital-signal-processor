@@ -1,0 +1,15 @@
+#N canvas 859 361 569 450 10;
+#X obj 355 50 \; Impt py Distortion_Case1;
+#X obj 374 86 r audio_on_off;
+#X msg 376 127 \; py dsp \$1;
+#X text 323 10 Recieve Input from Python:;
+#X text 337 31 (Only needed to import once);
+#X obj 353 235 route 0 1;
+#X obj 345 299 s audio_on_off;
+#X obj 358 197 netreceive 4000;
+#X obj 372 273 s volume;
+#X obj -841 11 *~ 40;
+#X connect 1 0 2 0;
+#X connect 5 0 6 0;
+#X connect 5 1 8 0;
+#X connect 7 0 5 0;
