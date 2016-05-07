@@ -1,5 +1,10 @@
-Title of the final project
+Digital Signal Processing Techniques in Python
 
-author 1, author 2, author 3
+Charles E Fortune, Skyler J. Hugo, Trevor Van Engelhoven
 
-Text of the abstract. It should not be longer than 200 words. Describe concisely what the problem is that you want to solve, what approach/methods you used (but keep it at a high level, don't write what you called your functions etc), and what your results are. Keep it all one paragraph. The idea is that a reader should be able to understand in 2 minutes or less what you are doing, how you are doing it, and what you get. Finish with one sentence on conclusions or future work. Finally include a statement along the following lines: Code is available at <URL> [under <LICENSE>]. --- Licensing is  optional, see https://github.com/blog/1530-choosing-an-open-source-license which will send you to http://choosealicense.com/. REPLACE ALL THE TEXT IN THIS ABSTRACT WITH YOUR OWN TITLE, AUTHOR NAMES AND ABSTRACT. THEN COMMIT AND PUT "added abstract" IN THE COMMIT MESSAGE. THE ABSTRACT IS DUE 05/03/2016 11:59 PM AZ TIME.
+Digital signal processing written in Pure Python designed to generate and foremost manipulate waveforms for audio design purposes. The modern music industry revolves heavily around digital audio-mixing, and this project ventures into this realm by constructing what is colloquially known as an effects processor comparable to those seen in use across the music industry. Ideally, this system could be expanded upon given proper time and funding to increase overall fidelity quality and effect variety (in the form of improved hardware and code optimisation)
+Primary coding methods can be broken down into three immediate segments of design: function generation, effect processing in a Python environment, further output as audible noise utilising Raspberry Pi interface.
+The results are promising, with outcomes extending well beyond initial forecasted success projections. Working Python code (though not optimised) wrapped through a Raspberry Pi output-system produces desired effect-processing with little to no audio latency and justifiable loss in overall audio fidelity.
+This project serves as a stable proof-of-concept for the further development of Python as an audio effects-processor. The research team has concluded that further investment in project-development will likely yield further positive results.
+
+Code is available at https://github.com/ASU-CompMethodsPhysics-PHY494/final-digital-signal-processor
